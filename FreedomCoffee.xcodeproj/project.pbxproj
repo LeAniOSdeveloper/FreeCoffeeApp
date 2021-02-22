@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FA39EB825E25E740074CAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39EB725E25E740074CAB0 /* AppDelegate.swift */; };
+		8FA39EBA25E25E740074CAB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39EB925E25E740074CAB0 /* SceneDelegate.swift */; };
+		8FA39EBC25E25E740074CAB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39EBB25E25E740074CAB0 /* ViewController.swift */; };
+		8FA39EBF25E25E740074CAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA39EBD25E25E740074CAB0 /* Main.storyboard */; };
+		8FA39EC225E25E740074CAB0 /* FreedomCoffee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39EC025E25E740074CAB0 /* FreedomCoffee.xcdatamodeld */; };
+		8FA39EC425E25E790074CAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA39EC325E25E790074CAB0 /* Assets.xcassets */; };
+		8FA39EC725E25E790074CAB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA39EC525E25E790074CAB0 /* LaunchScreen.storyboard */; };
+		8FA39ED225E25E790074CAB0 /* FreedomCoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39ED125E25E790074CAB0 /* FreedomCoffeeTests.swift */; };
+		8FA39EDD25E25E790074CAB0 /* FreedomCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39EDC25E25E790074CAB0 /* FreedomCoffeeUITests.swift */; };
+		8FA39F1725E265160074CAB0 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39F1625E265160074CAB0 /* TabbarViewController.swift */; };
+		8FA39F1C25E265690074CAB0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39F1B25E265690074CAB0 /* HomeViewController.swift */; };
+		8FA39F2825E28B920074CAB0 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39F2725E28B920074CAB0 /* Storyboard.swift */; };
+		8FA39F3B25E28F080074CAB0 /* HomeNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39F3A25E28F080074CAB0 /* HomeNavViewController.swift */; };
+		8FA39F4025E2A09B0074CAB0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39F3F25E2A09B0074CAB0 /* SearchViewController.swift */; };
+		8FA39F4525E2A1220074CAB0 /* SearchNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA39F4425E2A1220074CAB0 /* SearchNavViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FA39ECE25E25E790074CAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA39EAC25E25E740074CAB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FA39EB325E25E740074CAB0;
+			remoteInfo = FreedomCoffee;
+		};
+		8FA39ED925E25E790074CAB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA39EAC25E25E740074CAB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FA39EB325E25E740074CAB0;
+			remoteInfo = FreedomCoffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FA39EB425E25E740074CAB0 /* FreedomCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreedomCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA39EB725E25E740074CAB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FA39EB925E25E740074CAB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8FA39EBB25E25E740074CAB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FA39EBE25E25E740074CAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FA39EC125E25E740074CAB0 /* FreedomCoffee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreedomCoffee.xcdatamodel; sourceTree = "<group>"; };
+		8FA39EC325E25E790074CAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FA39EC625E25E790074CAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FA39EC825E25E790074CAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA39ECD25E25E790074CAB0 /* FreedomCoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedomCoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA39ED125E25E790074CAB0 /* FreedomCoffeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomCoffeeTests.swift; sourceTree = "<group>"; };
+		8FA39ED325E25E790074CAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA39ED825E25E790074CAB0 /* FreedomCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreedomCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA39EDC25E25E790074CAB0 /* FreedomCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreedomCoffeeUITests.swift; sourceTree = "<group>"; };
+		8FA39EDE25E25E790074CAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA39F1625E265160074CAB0 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		8FA39F1B25E265690074CAB0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8FA39F2725E28B920074CAB0 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		8FA39F3A25E28F080074CAB0 /* HomeNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavViewController.swift; sourceTree = "<group>"; };
+		8FA39F3F25E2A09B0074CAB0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8FA39F4425E2A1220074CAB0 /* SearchNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FA39EB125E25E740074CAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA39ECA25E25E790074CAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA39ED525E25E790074CAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FA39EAB25E25E740074CAB0 = {
+			isa = PBXGroup;
+			children = (
+				8FA39EB625E25E740074CAB0 /* FreedomCoffee */,
+				8FA39ED025E25E790074CAB0 /* FreedomCoffeeTests */,
+				8FA39EDB25E25E790074CAB0 /* FreedomCoffeeUITests */,
+				8FA39EB525E25E740074CAB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FA39EB525E25E740074CAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FA39EB425E25E740074CAB0 /* FreedomCoffee.app */,
+				8FA39ECD25E25E790074CAB0 /* FreedomCoffeeTests.xctest */,
+				8FA39ED825E25E790074CAB0 /* FreedomCoffeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FA39EB625E25E740074CAB0 /* FreedomCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				8FA39F2625E28ACB0074CAB0 /* New Group */,
+				8FA39EEE25E261CE0074CAB0 /* BaseNavigation */,
+				8FA39EED25E261C40074CAB0 /* Controller */,
+				8FA39EB725E25E740074CAB0 /* AppDelegate.swift */,
+				8FA39EB925E25E740074CAB0 /* SceneDelegate.swift */,
+				8FA39EBB25E25E740074CAB0 /* ViewController.swift */,
+				8FA39EBD25E25E740074CAB0 /* Main.storyboard */,
+				8FA39EC325E25E790074CAB0 /* Assets.xcassets */,
+				8FA39EC525E25E790074CAB0 /* LaunchScreen.storyboard */,
+				8FA39EC825E25E790074CAB0 /* Info.plist */,
+				8FA39EC025E25E740074CAB0 /* FreedomCoffee.xcdatamodeld */,
+			);
+			path = FreedomCoffee;
+			sourceTree = "<group>";
+		};
+		8FA39ED025E25E790074CAB0 /* FreedomCoffeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FA39ED125E25E790074CAB0 /* FreedomCoffeeTests.swift */,
+				8FA39ED325E25E790074CAB0 /* Info.plist */,
+			);
+			path = FreedomCoffeeTests;
+			sourceTree = "<group>";
+		};
+		8FA39EDB25E25E790074CAB0 /* FreedomCoffeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FA39EDC25E25E790074CAB0 /* FreedomCoffeeUITests.swift */,
+				8FA39EDE25E25E790074CAB0 /* Info.plist */,
+			);
+			path = FreedomCoffeeUITests;
+			sourceTree = "<group>";
+		};
+		8FA39EED25E261C40074CAB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FA39F1B25E265690074CAB0 /* HomeViewController.swift */,
+				8FA39F2725E28B920074CAB0 /* Storyboard.swift */,
+				8FA39F3F25E2A09B0074CAB0 /* SearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8FA39EEE25E261CE0074CAB0 /* BaseNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				8FA39F1625E265160074CAB0 /* TabbarViewController.swift */,
+				8FA39F3A25E28F080074CAB0 /* HomeNavViewController.swift */,
+				8FA39F4425E2A1220074CAB0 /* SearchNavViewController.swift */,
+			);
+			path = BaseNavigation;
+			sourceTree = "<group>";
+		};
+		8FA39F2625E28ACB0074CAB0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FA39EB325E25E740074CAB0 /* FreedomCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA39EE125E25E790074CAB0 /* Build configuration list for PBXNativeTarget "FreedomCoffee" */;
+			buildPhases = (
+				8FA39EB025E25E740074CAB0 /* Sources */,
+				8FA39EB125E25E740074CAB0 /* Frameworks */,
+				8FA39EB225E25E740074CAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreedomCoffee;
+			productName = FreedomCoffee;
+			productReference = 8FA39EB425E25E740074CAB0 /* FreedomCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FA39ECC25E25E790074CAB0 /* FreedomCoffeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA39EE425E25E790074CAB0 /* Build configuration list for PBXNativeTarget "FreedomCoffeeTests" */;
+			buildPhases = (
+				8FA39EC925E25E790074CAB0 /* Sources */,
+				8FA39ECA25E25E790074CAB0 /* Frameworks */,
+				8FA39ECB25E25E790074CAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FA39ECF25E25E790074CAB0 /* PBXTargetDependency */,
+			);
+			name = FreedomCoffeeTests;
+			productName = FreedomCoffeeTests;
+			productReference = 8FA39ECD25E25E790074CAB0 /* FreedomCoffeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FA39ED725E25E790074CAB0 /* FreedomCoffeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA39EE725E25E790074CAB0 /* Build configuration list for PBXNativeTarget "FreedomCoffeeUITests" */;
+			buildPhases = (
+				8FA39ED425E25E790074CAB0 /* Sources */,
+				8FA39ED525E25E790074CAB0 /* Frameworks */,
+				8FA39ED625E25E790074CAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FA39EDA25E25E790074CAB0 /* PBXTargetDependency */,
+			);
+			name = FreedomCoffeeUITests;
+			productName = FreedomCoffeeUITests;
+			productReference = 8FA39ED825E25E790074CAB0 /* FreedomCoffeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FA39EAC25E25E740074CAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8FA39EB325E25E740074CAB0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8FA39ECC25E25E790074CAB0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8FA39EB325E25E740074CAB0;
+					};
+					8FA39ED725E25E790074CAB0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8FA39EB325E25E740074CAB0;
+					};
+				};
+			};
+			buildConfigurationList = 8FA39EAF25E25E740074CAB0 /* Build configuration list for PBXProject "FreedomCoffee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FA39EAB25E25E740074CAB0;
+			productRefGroup = 8FA39EB525E25E740074CAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FA39EB325E25E740074CAB0 /* FreedomCoffee */,
+				8FA39ECC25E25E790074CAB0 /* FreedomCoffeeTests */,
+				8FA39ED725E25E790074CAB0 /* FreedomCoffeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FA39EB225E25E740074CAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA39EC725E25E790074CAB0 /* LaunchScreen.storyboard in Resources */,
+				8FA39EC425E25E790074CAB0 /* Assets.xcassets in Resources */,
+				8FA39EBF25E25E740074CAB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA39ECB25E25E790074CAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA39ED625E25E790074CAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FA39EB025E25E740074CAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA39EC225E25E740074CAB0 /* FreedomCoffee.xcdatamodeld in Sources */,
+				8FA39EBC25E25E740074CAB0 /* ViewController.swift in Sources */,
+				8FA39EB825E25E740074CAB0 /* AppDelegate.swift in Sources */,
+				8FA39F4025E2A09B0074CAB0 /* SearchViewController.swift in Sources */,
+				8FA39F4525E2A1220074CAB0 /* SearchNavViewController.swift in Sources */,
+				8FA39F3B25E28F080074CAB0 /* HomeNavViewController.swift in Sources */,
+				8FA39F1725E265160074CAB0 /* TabbarViewController.swift in Sources */,
+				8FA39F2825E28B920074CAB0 /* Storyboard.swift in Sources */,
+				8FA39EBA25E25E740074CAB0 /* SceneDelegate.swift in Sources */,
+				8FA39F1C25E265690074CAB0 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA39EC925E25E790074CAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA39ED225E25E790074CAB0 /* FreedomCoffeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA39ED425E25E790074CAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA39EDD25E25E790074CAB0 /* FreedomCoffeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FA39ECF25E25E790074CAB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FA39EB325E25E740074CAB0 /* FreedomCoffee */;
+			targetProxy = 8FA39ECE25E25E790074CAB0 /* PBXContainerItemProxy */;
+		};
+		8FA39EDA25E25E790074CAB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FA39EB325E25E740074CAB0 /* FreedomCoffee */;
+			targetProxy = 8FA39ED925E25E790074CAB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FA39EBD25E25E740074CAB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA39EBE25E25E740074CAB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FA39EC525E25E790074CAB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA39EC625E25E790074CAB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FA39EDF25E25E790074CAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FA39EE025E25E790074CAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FA39EE225E25E790074CAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3RYCBHXFY;
+				INFOPLIST_FILE = FreedomCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreedomCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FA39EE325E25E790074CAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3RYCBHXFY;
+				INFOPLIST_FILE = FreedomCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreedomCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FA39EE525E25E790074CAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3RYCBHXFY;
+				INFOPLIST_FILE = FreedomCoffeeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreedomCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreedomCoffee.app/FreedomCoffee";
+			};
+			name = Debug;
+		};
+		8FA39EE625E25E790074CAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3RYCBHXFY;
+				INFOPLIST_FILE = FreedomCoffeeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreedomCoffeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreedomCoffee.app/FreedomCoffee";
+			};
+			name = Release;
+		};
+		8FA39EE825E25E790074CAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3RYCBHXFY;
+				INFOPLIST_FILE = FreedomCoffeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreedomCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreedomCoffee;
+			};
+			name = Debug;
+		};
+		8FA39EE925E25E790074CAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3RYCBHXFY;
+				INFOPLIST_FILE = FreedomCoffeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FreedomCoffeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreedomCoffee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FA39EAF25E25E740074CAB0 /* Build configuration list for PBXProject "FreedomCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA39EDF25E25E790074CAB0 /* Debug */,
+				8FA39EE025E25E790074CAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA39EE125E25E790074CAB0 /* Build configuration list for PBXNativeTarget "FreedomCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA39EE225E25E790074CAB0 /* Debug */,
+				8FA39EE325E25E790074CAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA39EE425E25E790074CAB0 /* Build configuration list for PBXNativeTarget "FreedomCoffeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA39EE525E25E790074CAB0 /* Debug */,
+				8FA39EE625E25E790074CAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA39EE725E25E790074CAB0 /* Build configuration list for PBXNativeTarget "FreedomCoffeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA39EE825E25E790074CAB0 /* Debug */,
+				8FA39EE925E25E790074CAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FA39EC025E25E740074CAB0 /* FreedomCoffee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FA39EC125E25E740074CAB0 /* FreedomCoffee.xcdatamodel */,
+			);
+			currentVersion = 8FA39EC125E25E740074CAB0 /* FreedomCoffee.xcdatamodel */;
+			path = FreedomCoffee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FA39EAC25E25E740074CAB0 /* Project object */;
+}
